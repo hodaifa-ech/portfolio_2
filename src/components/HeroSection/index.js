@@ -36,7 +36,8 @@ const HeroSection = () => {
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
-hidden
+//add social media icons
+
             </HeroContainer>
         </div>
     )
