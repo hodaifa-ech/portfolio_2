@@ -75,8 +75,9 @@ export const HeroLeftContainer = styled.div`
 `;
 
 export const HeroRightContainer = styled.div`
-  width: 100%;
-  display: flex;
+  width: 50%;
+  height: 80%;
+  display: flex; 
   order: 2;
   justify-content: end;
   gap: 12px;
