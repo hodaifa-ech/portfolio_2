@@ -206,7 +206,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    image: "/home/hodaifa/my-portfolio/src/images/onetechma_logo.jpeg",
+    image: "onetechma_logo.jpeg",
     role: "Fullstack Developer",
     company: "One Technologies",
     date: "June 2024 - Sept 2024",
