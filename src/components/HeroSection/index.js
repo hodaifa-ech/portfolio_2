@@ -36,7 +36,7 @@ const HeroSection = () => {
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
-
+hidden
             </HeroContainer>
         </div>
     )
