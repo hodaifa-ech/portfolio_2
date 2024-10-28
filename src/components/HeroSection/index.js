@@ -37,9 +37,10 @@ const HeroSection = () => {
                     </HeroRightContainer>
                
                 </HeroInnerContainer>
+hidden
             </HeroContainer>
         </div>
     )
 }
-//hi
+
 export default HeroSection

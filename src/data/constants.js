@@ -316,7 +316,7 @@ export const projects = [
       "",
     image:
       "Screenshot from 2024-10-17 13-00-01.png",
-    tags: ["Angular", "Spring boot", "Tailwind", "Docker", "Postgresql", "React"],
+    tags: ["Angular", "Spring boot", "Tailwind", "Docker", "Postgresql"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/ecommerce-spring_boot",
    
@@ -360,6 +360,20 @@ export const projects = [
     category: "web app",
     github: "https://github.com/hodaifa-ech/ecommerce-website",
     
+  },
+  {
+    id: 5,
+    title: "Fitness Tracker",
+    date: "Oct 2024 - present",
+    description:
+      "",
+    image:
+      "Pasted image.png",
+    tags: ["Angular", "Spring boot", "Tailwind", "Mysql"],
+    category: "web app",
+    github: "https://github.com/hodaifa-ech/fitness_tracker",
+   
+   
   },
   
 ];
