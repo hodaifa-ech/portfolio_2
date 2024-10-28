@@ -375,7 +375,6 @@ export const projects = [
    
    
   },
-  test
   
 ];
 
