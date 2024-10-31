@@ -223,7 +223,33 @@ export const experiences = [
   },
   
 ];
-
+export const certificates = [
+  {
+    id: 1,
+    title: "Developing Front-End Apps with React",
+    issuer: "Coursera",
+    date: "April 2024",
+    description: "Completed a comprehensive course on React.js fundamentals.",
+    img: "1715083442192.jpeg",
+  },
+  {
+    id: 2,
+    title: "Oracle Cloud Infrastructure 2023 AI Certified ",
+    issuer: "Oracle",
+    date: "June 2024",
+    description: "Oracle AI services ,Oracle Generative AI",
+    img: "Screenshot from 2024-10-31 23-30-53.png",
+  },
+  {
+    id: 3,
+    title: "Postman API Fundamentals Student Expert",
+    issuer: "freeCodeCamp",
+    date: "December 2024",
+    description: "How to use Postman to work with APIs",
+    img: "Screenshot from 2024-10-31 23-33-39.png",
+  },
+ 
+];
 export const education = [
   {
     id: 0,
