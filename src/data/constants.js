@@ -1,17 +1,11 @@
 
 export const Bio = {
   name: "Hodaifa Echffani",
-  roles: [
-    "Full Stack Developer",
-    "Android Developer",
-    
-    "Programmer",
-  ],
+  roles: ["Full Stack Developer", "Android Developer", "DevOps Engineer", "Cloud Specialist", "Programmer"],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/hodaifa-ech",
-  resume:
-    "https://drive.google.com/file/d/1KK4Uo33-USsp9vEF_U8VHRxb6V-RUMK6/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1KK4Uo33-USsp9vEF_U8VHRxb6V-RUMK6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hodaifa-echffani-297b7b284",
   twitter: "https://twitter.com/hodaifaechffani",
   insta: "https://www.instagram.com/hodaifa_echffani/",
@@ -125,6 +119,55 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
      
+    ],
+  },
+  {
+    title: "DevOps & Cloud",
+    skills: [
+      {
+        name: "AWS",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/93/Amazon_Web_Services_Logo.svg",
+      },
+      {
+        name: "Docker",
+        image: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+      },
+      {
+        name: "Kubernetes",
+        image: "https://kubernetes.io/images/favicon.png",
+      },
+      {
+        name: "Jenkins",
+        image: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg",
+      },
+      {
+        name: "Terraform",
+        image: "https://www.vectorlogo.zone/logos/terraformio/terraformio-icon.svg",
+      },
+      {
+        name: "Ansible",
+        image: "https://www.vectorlogo.zone/logos/ansible/ansible-icon.svg",
+      },
+      {
+        name: "SonarQube",
+        image: "https://cdn.worldvectorlogo.com/logos/sonarqube.svg",
+      },
+      {
+        name: "Git",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      },
+      {
+        name: "GitHub Actions",
+        image: "https://github.githubassets.com/images/modules/site/features/actions-icon-actions.svg",
+      },
+      {
+        name: "EKS",
+        image: "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2020/08/10/image-1.png",
+      },
+      {
+        name: "ECR",
+        image: "https://cdn.worldvectorlogo.com/logos/aws-ecr.svg",
+      },
     ],
   },
   {
