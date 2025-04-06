@@ -286,122 +286,132 @@ export const projects = [
     title: "Management of a supermarket",
     date: "feb 2024 - Jul 2024",
     description:
-      "",
-    image:
-      "/Screenshot from 2024-10-16 13-08-43.png" ,
-    tags: [
-      "HTML",
-      "CSS",
-      "BOOTSTRAP",
-      "JS",
-      "MYSQL",
-     
-      "UML",
-      
-    ],
+      "Comprehensive system for managing supermarket operations including inventory, sales, and customer data.",
+    image: "/Screenshot from 2024-10-16 13-08-43.png",
+    tags: ["HTML", "CSS", "BOOTSTRAP", "JS", "MYSQL", "UML"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/Uml",
-   
+  },
+  {
+    id: 11,
+    title: "Student Money Management App",
+    date: "Jan 2024 - Apr 2024",
+    description:
+      "Developed a comprehensive money management application for students to track expenses, create monthly budgets by category, set financial goals with statistics, send money to friends, and earn points through gamification features.",
+    image: "/tawfir.png?height=400&width=600",
+    tags: ["Next.js", "Spring Boot", "Docker", "Tailwind CSS", "MySQL"],
+    category: "web app",
+    github: "https://github.com/hodaifa-ech/tawfir-front",
+  },
+  {
+    id: 12,
+    title: "Financial Trading & Credit Risk Platform",
+    date: "May 2023 - Dec 2023",
+    description:
+      "Built a financial application similar to Binance for trading prediction using deep learning and credit risk assessment with machine learning classification. Implemented with microservice architecture using DevOps methodology and tools including Jenkins, Docker, SonarQube, Git, Kubernetes, Terraform, and AWS for automation, deployment and testing.",
+    image: "/trading.png?height=400&width=600",
+    tags: ["Deep Learning", "Microservices", "DevOps", "Docker", "Kubernetes", "AWS", "Terraform"],
+    category: "machine learning",
+    github: "https://github.com/Fintech-LSI",
+  },
+  {
+    id: 13,
+    title: "Merciboi App Deployment Automation",
+    date: "Feb 2023 - Apr 2023",
+    description:
+      "Automated the deployment process for the Merciboi application using Jenkins CI/CD pipeline integrated with GitHub. Implemented container orchestration with EKS and ECR, used Docker for containerization, and managed clusters with Ansible. Infrastructure was provisioned using Terraform for Jenkins instances and EKS.",
+    image: "/devops.drawio.png?height=400&width=600",
+    tags: ["Jenkins", "GitHub", "EKS", "ECR", "Docker", "Ansible", "Terraform"],
+    category: "devops",
+    github: "https://github.com/hodaifa-ech/cicd_Merciboi",
+  },
+  {
+    id: 14,
+    title: "Microservice Flask App Deployment",
+    date: "Nov 2022 - Jan 2023",
+    description:
+      "Automated the deployment of a microservice application built with Flask using Jenkins for CI/CD, ECR for container registry, EKS for Kubernetes orchestration, and GitHub for version control. Used Terraform for infrastructure as code and Ansible for configuration management.",
+    image: "/1.png?height=400&width=600",
+    tags: ["Flask", "Jenkins", "ECR", "EKS", "GitHub", "Terraform", "Ansible"],
+    category: "devops",
+    github: "https://github.com/hodaifa-ech/Flask-microservice",
   },
   {
     id: 0,
-    title: "managing commercial",
+    title: "Managing Commercial",
     date: "June 2024 - Sept 2024",
     description:
       "Developed a full-stack web application that allows users to managing commercial sales, stock purchases, clients, and suppliers with dynamic parameters",
-      image:
-      "Screenshot from 2024-10-17 12-56-04.png",
-    tags: ["js", "laravel", "OCR", "Tailwind", "CSS","Mysql"],
+    image: "Screenshot from 2024-10-17 12-56-04.png",
+    tags: ["JavaScript", "Laravel", "OCR", "Tailwind CSS", "MySQL"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/Gestion-Commerciale",
-   
-    
   },
   {
     id: 1,
-    title: "Dungeon loop",
+    title: "Dungeon Loop",
     date: "Mar 2024 - June 2024",
     description:
-      "developed  a game 2D Top-down game featuring pcedural map generation as well as pathfnding algorithm such as dijikstra and A* the game provids an immersive experience with dynamically generated maps and chanllenging navigation scenarios",image:
-      "44f7a9b1-41d4-4f3c-a1cd-1e812590a4f9.jpeg",
-    tags: [
-      "Unity",
-      "C#",
-      "pathfinding",
-     
-    ],
+      "Developed a 2D top-down game featuring procedural map generation as well as pathfinding algorithms such as Dijkstra and A*. The game provides an immersive experience with dynamically generated maps and challenging navigation scenarios.",
+    image: "44f7a9b1-41d4-4f3c-a1cd-1e812590a4f9.jpeg",
+    tags: ["Unity", "C#", "Pathfinding"],
     category: "Game",
     github: "https://github.com/hodaifa-ech/Unity-Project-Procedural-Map-Generation-PathFinding",
-   
   },
   {
     id: 2,
     title: "BOOK Network",
     date: "Oct 2024 - present",
     description:
-      "",
-    image:
-      "Screenshot from 2024-10-17 13-00-01.png",
-    tags: ["Angular", "Spring boot", "Tailwind", "Docker", "Postgresql"],
+      "E-commerce platform for books with user authentication, product catalog, shopping cart, and order management.",
+    image: "Screenshot from 2024-10-17 13-00-01.png",
+    tags: ["Angular", "Spring Boot", "Tailwind CSS", "Docker", "PostgreSQL"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/ecommerce-spring_boot",
-   
-   
   },
   {
     id: 3,
-    title: "Gaming  Club",
-    date: "mar 2024 - June 2024",
-    description:
-      "Developed a full-stack web application    for gaing clubs ",
-    image:
-      "4eb47daa-6011-4c11-8761-54dd9eb6495c.jpeg",
-    tags: ["Tailwind", "CSS", "Php", "Mysql"],
+    title: "Gaming Club",
+    date: "Mar 2024 - June 2024",
+    description: "Developed a full-stack web application for gaming clubs to manage members, events, and tournaments.",
+    image: "4eb47daa-6011-4c11-8761-54dd9eb6495c.jpeg",
+    tags: ["Tailwind CSS", "CSS", "PHP", "MySQL"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/Club_Gaming_FSTT_Website",
-    
   },
   {
     id: 10,
-    title: "Task management",
-    date: "mar 2024 - Sept 2024",
+    title: "Task Management",
+    date: "Mar 2024 - Sept 2024",
     description:
-      "Dashbord for mangement Tasks  ",
-    image:
-      "Screenshot from 2024-10-17 13-06-05.png",
-    tags: ["React js", "JavaScript", "Axios","Laravel","Mysql","livwire"],
+      "Dashboard for management of tasks with features for task creation, assignment, tracking, and reporting.",
+    image: "Screenshot from 2024-10-17 13-06-05.png",
+    tags: ["React.js", "JavaScript", "Axios", "Laravel", "MySQL", "Livewire"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/Gestion-Commerciale",
-    
   },
   {
     id: 4,
     title: "E-commerce",
     date: "Jul 2021",
     description:
-      "",
-    image:
-      "Screenshot from 2024-10-17 13-17-09.png",
-    tags: ["js", "css", "Mysql", "Sumfony ","Bootstrap"],
+      "Full-featured e-commerce platform with product catalog, shopping cart, user authentication, and order management.",
+    image: "Screenshot from 2024-10-17 13-17-09.png",
+    tags: ["JavaScript", "CSS", "MySQL", "Symfony", "Bootstrap"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/ecommerce-website",
-    
   },
   {
     id: 5,
     title: "Fitness Tracker",
     date: "Oct 2024 - present",
     description:
-      "",
-    image:
-      "Pasted image.png",
-    tags: ["Angular", "Spring boot", "Tailwind", "Mysql"],
+      "Application for tracking fitness activities, setting goals, and monitoring progress with detailed analytics.",
+    image: "Pasted image.png",
+    tags: ["Angular", "Spring Boot", "Tailwind CSS", "MySQL"],
     category: "web app",
     github: "https://github.com/hodaifa-ech/fitness_tracker",
-   
-   
   },
-  
 ];
 
 export const TimeLineData = [
