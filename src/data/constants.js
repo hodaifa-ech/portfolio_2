@@ -1,4 +1,3 @@
-
 export const Bio = {
   name: "Hodaifa Echffani",
   roles: ["Full Stack Developer", "Android Developer", "DevOps Engineer", "Cloud Specialist", "Programmer"],
@@ -10,7 +9,7 @@ export const Bio = {
   twitter: "https://twitter.com/hodaifaechffani",
   insta: "https://www.instagram.com/hodaifa_echffani/",
   facebook: "https://www.facebook.com/houdayf.echeffani/",
-};
+}
 
 export const skills = [
   {
@@ -23,8 +22,7 @@ export const skills = [
       },
       {
         name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
       },
       {
         name: "Next Js",
@@ -33,13 +31,11 @@ export const skills = [
       },
       {
         name: "Angular",
-        image:
-          "https://angular.io/assets/images/logos/angular/angular.svg",
+        image: "https://angular.io/assets/images/logos/angular/angular.svg",
       },
       {
         name: "Tailwind CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
       {
         name: "HTML",
@@ -57,15 +53,13 @@ export const skills = [
       },
       {
         name: "Bootstrap",
-        image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
       {
         name: "Material UI",
         image:
-          "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADgCAMAAAAt85rTAAAAh1BMVEX///8Af/8Ad/8AfP8Aev/v+P8Adf8Ae/+Puv8Adv+72P8Ac/87k/8Agf/t9f/6/f/U5v+lyf/m8f+10//H3v/C2/9Tnf9npv/e7P+w0P9+s/9Il/+Ywf8rjP8xkP/A2f8ch//Q4/9zrf94r/+HuP+dxP8JhP9aoP/a6f9Mmv+py/+Tv/8Ab/9IeMWVAAAHEElEQVR4nO2d6XqqMBBAJUQodcG1tlqpS2tre9//+W6oWgWyTAiB4DfnNwaOZiQkk6HTQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQZCm2X5Pu3Wda/Y91zl8Mhoan3KY9AghD8btQJgeAhL5YMVtEgTRp+GXHx9Cj0EGU7N2AHz1g/RUXm8EOry76PnsaHqIjc76SrwTQQI7b1nO18vw+5Djx4SeDifvRuc9ns/KzhsszDu8kFcSXk7kRerfZLsmf9e1MTpx8ifoeSH5MWpLzOOBXE/jEVVYxX+/9q+h0alvBW2F4tcq8DwNwb/eWb0g6z79qkOxuwty55ALjtYke3i1gp7fW1R6V/ygNHcGqWA30zttCLJQjF6Nmrzl7UAK7csEx1FYOLxyQXYFhzejRi8854JPKbjjHW9BkN0VV89GzabE+3zwqQTnPd7hVgRZKO4MQzH3XwgRXBT7pzVBNkaiHwbtzjec4FMJ9rkXY0vQJBQnT4X/QhcF2eitVCjGS5meS4Kp4l47FMe+KPgcFNQPxVl+INKw4FolmIYi/ClcHnyOCrJ+eoSFYvweAZpzTzBVXAKeq79VweeuYBqKY0VL23UEa0pXMKxFkF3WeiZpZ/gpGJeZCw5qEmSjt6eJqJl3zlNARYJ0UZdgqsgPxRdg8JUR9CPht1q9IPs6ve9CE9sEGnwlBKm/NfLTFfS8KBeKw+IjeHWCoi5jU5Cd9POm0zwEGsGnKxj1zZ9K9QXT6cX38/c6HSjHZeUFqfdirFdO8DcUmeKsz52RqEawgt5pIMgukhwoKftZkeDq2mAVcyZGgiYIBZeXu001vfOXTf1+YsHJqctX1TvdE+zMCQ1pZb3TQcHO8Gex11oDbptg9aAgCrZX0De5Rco+7IYgJUk/LDPSPH14nRTXBZ0SjH4nfKHTSFnYjZp9OP4RPSa6IEjPuRvxkug+DvnBZWZjKjB0QfA60TN5gs8m/V795vpAfOR/0gHBcHdzyEyyEpYnO9H/zf+gA4I0m7umXE45k1+qeXRA8AARVC6InSiMktsjyELxqFLkLJe2SVC+KJ0GHyf3ZNoqQW5OzxlB9lDbBDvxjt9Pg/4X9/jWCfJTe8QZfC0UZH8cuanQMBDnYLZSMJvbyoJPkkXbUsFOd3EZvUXyPGhTwfnuacmPbjhlBDudUcIUfeIrZi/NBFm8hz7tmeRbdcoKsms/HhJlArSJYPfyj92TLSyrGZQUBGEgeL3n+k9G1+CmYHbUZHQNVgVfygk+Z8e9Zmkk7gnG+1w20Z0JFp8970qQN3twT4LchIY7Elxwj78fwck/7uH3Iyg4/H4EBbOMZoLcJlEQxvNKb2a7ZYLCnT13Iije2XMXgtL1DJHguDWCis0FbRdULmS0XFC9FFWrIP+7Li8I2NkjFuR/My4Jgnb2tFcwfodlkLZVEJySUatg2XnRAjPwzh5hLQsrgntuo9qCk0/45gJ/JWjEiuCQcrfTaApq7ewR1pP5sCHYeeYNqvQEtXb2UF84FW9HkHtn1hEc6ezs8SNJOrYtQc7YCi6otbNHtn/NpmDxBg0W1NrZI9+BaFUw/3wDFNTa2UND1R5Sq4Lpn/S1fQqpfTRKNHb2QPZCWBZkofi36hEAUvvn/zSCD7SP27Zgmq91mkYJ14CDBXlaPMgGtBfCvmAaigGlwQZSfwwsSAlwmb0OQfbHsVzCKnMBBf0AXJimHkEwMMFgBc8DeW2foF6dNn5BIIcFQ16KpZihYETrqqA8y4sDvw6Cs4KKLK8CbwPRoM9JQV+zSGK+/KHrgv5Ga49qV7hO46og0coRFKdKuyroJxrtyJPd3RQM4RVSLsPfdgn6R2AboA0nDgp6FDb8HMuDz2FBUB+FrNO4KugRZf1v2DqNs4Kqis/xErwr0bAMdXlUY1HZk8TYg08V11Smvoj6aUJUfF1nx6VH9QZFFQJ4HuQWX59oVGBLW2jKD/ZEHxY6mNY6TbQ2rMllAnBOJlv7Rm+dprqyOWUAz6pFyeVngJc/9G5LYzXEF7dmNI/zs73OImmuuFkzaJSDCnv9Rb/XluC7MNGJJz/UKDfAKzDYBJzC+1VQac0qQ0YlS8dJ9aSLpLVTrvifGNUiaQP86Px5KKBEtUjaBJWFIqxUchNoJVqI9Y5OBV+WqWcaijrlyhvhQbt00C00NNyLXAPDhV7poBvKvDKgCbTSLm7oVVqt0Spl7orOB18W3VA0e/FKE2gmr5m+OqcJ4APUakul1sgLKBTJ4bHpCy2PeoAaBtW9gKwJFKHYzuDLIhugRoIiUC1jKpigr+ONqjXBuyvaexFnExQGqHZfpdoE2ddt2H4ZbiNcB6hk0OhcvD1OoRhGD47OSJjDQrF3d8GXw+H5FgRBEARBEARBEARBEARBEARBEARBEARBEMZ/Z7h0SlKcxhsAAAAASUVORK5CYII=",
+          "data:image/png;base64,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",
       },
-      
     ],
   },
   {
@@ -77,18 +71,15 @@ export const skills = [
       },
       {
         name: "Laravel",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg",
       },
       {
         name: "Symfony",
-        image:
-          "https://symfony.com/logos/symfony_black_03.svg",
+        image: "https://symfony.com/logos/symfony_black_03.svg",
       },
       {
         name: "Java EE (JEE)",
-        image:
-          "https://www.vectorlogo.zone/logos/javaee/javaee-ar21.svg",
+        image: "https://www.vectorlogo.zone/logos/oracle/oracle-icon.svg",
       },
       {
         name: "Express Js",
@@ -101,13 +92,11 @@ export const skills = [
       },
       {
         name: "Python",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
         name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
       {
         name: "Postgresql",
@@ -115,10 +104,8 @@ export const skills = [
       },
       {
         name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
-     
     ],
   },
   {
@@ -133,7 +120,7 @@ export const skills = [
         image: "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
       },
       {
-        name: "Kubernetes",
+        name: "Kubernetes (K8s)",
         image: "https://kubernetes.io/images/favicon.png",
       },
       {
@@ -162,51 +149,71 @@ export const skills = [
       },
       {
         name: "EKS",
-        image: "https://d2908q01vomqb2.cloudfront.net/fe2ef495a1152561572949784c16bf23abb28057/2020/08/10/image-1.png",
+        image: "https://www.svgrepo.com/show/376354/amazon-eks.svg",
       },
       {
         name: "ECR",
-        image: "https://cdn.worldvectorlogo.com/logos/aws-ecr.svg",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrDHURZovzN7Xoo0_PB4etEx8tV3ZoPLkp_g&s",
+      },
+      {
+        name: "Ubuntu",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg",
+      },
+      {
+        name: "Linux",
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg",
+      },
+      {
+        name: "Kubeflow",
+        image: "https://v1-9-branch.kubeflow.org/docs/images/logos/kubeflow.png",
       },
     ],
   },
   {
-    title: "Android",
+    title: "Android & Mobile",
     skills: [
       {
         name: "Java",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
         name: "Kotlin",
-        image:
-          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        image: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
       {
         name: "XML",
-        image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBMw6_RdwKQ9bDFfnKDX1iwMl4bVJEvd9PP53XuIw&s",
       },
-     
+      {
+        name: "Flutter",
+        image: "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
+      },
     ],
   },
   {
-    "title": "Game Development",
-    "skills": [
+    title: "Game Development",
+    skills: [
       {
-        "name": "C#",
-        "image": "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg"
+        name: "C#",
+        image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
       },
       {
-        "name": "Unity",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg"
-      }
-    ]
+        name: "Unity",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/19/Unity_Technologies_logo.svg",
+      },
+    ],
   },
   {
-    title: "Others",
+    title: "Project Management & Collaboration",
     skills: [
+      {
+        name: "Jira",
+        image: "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg",
+      },
+      {
+        name: "Scrum",
+        image: "https://cdn.worldvectorlogo.com/logos/scrum-1.svg",
+      },
       {
         name: "Git",
         image:
@@ -214,15 +221,13 @@ export const skills = [
       },
       {
         name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+        image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-      {
-        name: "Docker",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
-      
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
       {
         name: "VS Code",
         image:
@@ -230,21 +235,15 @@ export const skills = [
       },
       {
         name: "Postman",
-       image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
+        image: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
-    
       {
         name: "Figma",
-        image:
-          "https://www.vectorlogo.zone/logos/figma/figma-icon.svg" },
-          {
-            name: "Jenkins",
-  image: "https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg"
-          },
-          
+        image: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg",
+      },
     ],
   },
-];
+]
 
 export const experiences = [
   {
@@ -254,18 +253,10 @@ export const experiences = [
     company: "One Technologies",
     date: "June 2024 - Sept 2024",
     desc: "Working on web applications for managing commercial sales, stock purchases, clients, and suppliers with dynamic parameters.",
-    skills: [
-      "Laravel",
-      "Tailwind CSS",
-      "CSS",
-      "JavaScript",
-      "Testing",
-      "OCR"
-    ],
-  
+    skills: ["Laravel", "Tailwind CSS", "CSS", "JavaScript", "Testing", "OCR"],
   },
-  
-];
+]
+
 export const certificates = [
   {
     id: 1,
@@ -291,15 +282,22 @@ export const certificates = [
     description: "How to use Postman to work with APIs",
     img: "Screenshot from 2024-10-31 23-33-39.png",
   },
- 
+  {
+    id: 4,
+    title: "AWS Certified Cloud Practitioner",
+    issuer: "Amazon Web Services (AWS)",
+    date: "2024",
+    description: "Foundational understanding of AWS Cloud concepts, services, security, architecture, pricing, and support",
+    img: "aws-certified-cloud-practitioner.png",
+  },
 ];
+
 export const education = [
   {
     id: 0,
     img: "tanger.png",
     school: "Faculty of Science and Technology in Tangier",
     date: "Oct 2023 ",
-    
     desc: "I'm currently a software engineering student",
     degree: "Software Engineering and Intelligent Systems",
   },
@@ -308,7 +306,6 @@ export const education = [
     img: "fes.png",
     school: "Faculty of Science and Technology in Fes",
     date: "Oct 2021 -  June 2023",
-    
     desc: "I completed my two-year preparatory program in university studies focusing on mathematics, physics, and basic computer science",
     degree: "DEUST",
   },
@@ -317,11 +314,10 @@ export const education = [
     img: "images.png",
     school: "EL amir moulay el hassan high school",
     date: "Oct 2019  - June 2021",
-    
-   desc: "I completed my baccalaureate education in Science with Physics.",
-degree: "Baccalaureate, Science with Physics"
+    desc: "I completed my baccalaureate education in Science with Physics.",
+    degree: "Baccalaureate, Science with Physics",
   },
-];
+]
 
 export const projects = [
   {
@@ -455,7 +451,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/hodaifa-ech/fitness_tracker",
   },
-];
+]
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },
@@ -463,4 +459,4 @@ export const TimeLineData = [
   { year: 2019, text: "Founded JavaScript Mastery" },
   { year: 2020, text: "Shared my projects with the world" },
   { year: 2021, text: "Started my own platform" },
-];
+]
