@@ -451,6 +451,17 @@ export const projects = [
     category: "web app",
     github: "https://github.com/hodaifa-ech/fitness_tracker",
   },
+  {
+    id: 15,
+    title: "Smart E-commerce AI Pipeline",
+    date: "Nov 2024 - Present",
+    description:
+      "Developed an intelligent and automated system for scraping product data from Shopify and WooCommerce platforms, analyzing products to identify top performers using ML algorithms. Implemented distributed web scraping with A2A agents, ML analysis with BI visualization, Kubeflow pipeline orchestration for ML workflows, and LLM integration for enriched analysis and strategic recommendations. Designed responsible AI agents architecture based on Anthropic's Model Context Protocol.",
+    image: "application-access.png",
+    tags: ["Kubeflow", "ML", "Web Scraping", "LLMs", "Docker", "CI/CD", "BI", "Python", "Kubernetes", "A2A Agents"],
+    category: "machine learning",
+    github: "https://github.com/hodaifa-ech/smart-ecommerce-ai-pipeline",
+  },
 ]
 
 export const TimeLineData = [
