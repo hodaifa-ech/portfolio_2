@@ -4,7 +4,7 @@ export const Bio = {
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/hodaifa-ech",
-  resume: "https://drive.google.com/file/d/1lSrGezHbHKii8sz7eRNVe511Qn7R4pip/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1mweIeQlNatWeSuggbS5eYwr81qNjde23/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/hodaifa-echffani-297b7b284",
   twitter: "https://twitter.com/hodaifaechffani",
   insta: "https://www.instagram.com/hodaifa_echffani/",
@@ -254,6 +254,32 @@ export const experiences = [
     date: "June 2024 - Sept 2024",
     desc: "Working on web applications for managing commercial sales, stock purchases, clients, and suppliers with dynamic parameters.",
     skills: ["Laravel", "Tailwind CSS", "CSS", "JavaScript", "Testing", "OCR"],
+  },
+  {
+    id: 1,
+    image: "images.jpeg", // You may need to add the actual logo file
+    role: "Backend Developer",
+    company: "Cloud marketing hub",
+    date: "June 2025 - August 2025",
+    location: "Tangier, Morocco",
+    desc: "Improved database performance and reduced downtime. Implemented Kafka for asynchronous and ordered data synchronization as well as fast insertion. Deployed applications on Linux with k3s, using Kubernetes for orchestration, CI/CD for automation, DevOps best practices, and enhanced server security.",
+    skills: [
+      "Spring Boot",
+      "PostgreSQL",
+      "Apache Kafka",
+      "Kubernetes",
+      "Docker",
+      "Git",
+      "GitHub",
+      "Django",
+      "Java",
+      "Python",
+      "AWS",
+      "K3S",
+      "Linux",
+      "SonarQube",
+      "Jenkins",
+    ],
   },
 ]
 
