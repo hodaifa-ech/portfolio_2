@@ -1,5 +1,4 @@
-import styled from "styled-components";
-import _default from "../../themes/default";
+import styled from "styled-components"
 
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
@@ -10,13 +9,13 @@ export const HeroContainer = styled.div`
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
-  @media (max-width: 640) {
+  @media (max-width: 640px) {
     padding: 32px 16px;
   }
   z-index: 1;
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
-`;
+`
 
 export const HeroBg = styled.div`
   position: absolute;
@@ -40,7 +39,7 @@ export const HeroBg = styled.div`
     justify-content: center;
     padding: 0 0px;
   }
-`;
+`
 
 export const HeroInnerContainer = styled.div`
   position: relative;
@@ -53,7 +52,8 @@ export const HeroInnerContainer = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
-`;
+`
+
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
@@ -72,7 +72,7 @@ export const HeroLeftContainer = styled.div`
     flex-direction: column;
     align-items: center;
   }
-`;
+`
 
 export const HeroRightContainer = styled.div`
   width: 50%;
@@ -91,7 +91,7 @@ export const HeroRightContainer = styled.div`
   @media (max-width: 640px) {
     margin-bottom: 30px;
   }
-`;
+`
 
 export const Img = styled.img`
   position: relative;
@@ -111,7 +111,7 @@ export const Img = styled.img`
     max-width: 280px;
     max-height: 280px;
   }
-`;
+`
 
 export const Title = styled.div`
   font-weight: 700;
@@ -127,7 +127,7 @@ export const Title = styled.div`
     line-height: 48px;
     margin-bottom: 8px;
   }
-`;
+`
 
 export const TextLoop = styled.div`
   font-weight: 600;
@@ -144,12 +144,12 @@ export const TextLoop = styled.div`
     line-height: 48px;
     margin-bottom: 16px;
   }
-`;
+`
 
 export const Span = styled.span`
   color: ${({ theme }) => theme.primary};
   cursor: pointer;
-`;
+`
 
 export const SubTitle = styled.div`
   font-size: 20px;
@@ -165,17 +165,19 @@ export const SubTitle = styled.div`
     font-size: 16px;
     line-height: 32px;
   }
-`;
+`
 
 export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
+    display: block;
     width: 95%;
     max-width: 300px;
     text-align: center;
     padding: 16px 0;
+    margin: 0 auto;
     color:${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
@@ -190,9 +192,9 @@ export const ResumeButton = styled.a`
     -20px -20px 60px #1F2634;
     &:hover {
         transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
+        transition: all 0.4s ease-in-out;
+        box-shadow:  20px 20px 60px #1F2634;
+        filter: brightness(1);
     }    
     
     
@@ -201,4 +203,4 @@ export const ResumeButton = styled.a`
         font-size: 18px;
     } 
 
-`;
+`

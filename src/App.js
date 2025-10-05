@@ -1,26 +1,29 @@
-import { ThemeProvider } from "styled-components";
-import { useState, useEffect } from "react";
-import { darkTheme, lightTheme } from './utils/Themes.js'
-import Navbar from "./components/Navbar";
-import './App.css';
-import { BrowserRouter as Router } from 'react-router-dom';
-import HeroSection from "./components/HeroSection";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Certificates from "./components/Certificates";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Experience from "./components/Experience";
-import Education from "./components/Education";
-import ProjectDetails from "./components/ProjectDetails";
-import styled from "styled-components";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+"use client"
+
+import { ThemeProvider } from "styled-components"
+import { useState, useEffect } from "react"
+import { darkTheme, lightTheme } from "./utils/Themes.js"
+import Navbar from "./components/Navbar"
+import "./App.css"
+import { BrowserRouter as Router } from "react-router-dom"
+import HeroSection from "./components/HeroSection"
+import Skills from "./components/Skills"
+import Certificates from "./components/Certificates"
+import Projects from "./components/Projects"
+import Contact from "./components/Contact"
+import Footer from "./components/Footer"
+import Experience from "./components/Experience"
+import Education from "./components/Education"
+import ProjectDetails from "./components/ProjectDetails"
+import styled from "styled-components"
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
+
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
+  transition: background-color 0.3s ease;
 `
 
 const Wrapper = styled.div`
@@ -28,14 +31,22 @@ const Wrapper = styled.div`
   width: 100%;
   clip-path: polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%);
 `
+
 function App() {
-  const [darkMode, setDarkMode] = useState(true);
-  const [openModal, setOpenModal] = useState({ state: false, project: null });
-  console.log(openModal)
+  const [darkMode, setDarkMode] = useState(() => {
+    const savedMode = localStorage.getItem("darkMode")
+    return savedMode ? JSON.parse(savedMode) : true
+  })
+  const [openModal, setOpenModal] = useState({ state: false, project: null })
+
+  useEffect(() => {
+    localStorage.setItem("darkMode", JSON.stringify(darkMode))
+  }, [darkMode])
+
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
-      <Router >
-        <Navbar />
+      <Router>
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
         <Body>
           <HeroSection />
           <Wrapper>
@@ -49,13 +60,11 @@ function App() {
             <Contact />
           </Wrapper>
           <Footer />
-          {openModal.state &&
-            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
-          }
+          {openModal.state && <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />}
         </Body>
       </Router>
     </ThemeProvider>
-  );
+  )
 }
 
-export default App;
+export default App
